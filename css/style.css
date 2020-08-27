@@ -3,22 +3,56 @@
     grid-template-areas:'main' 'promo' 'footer';
 }
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
 .main { 
     grid-area: main; 
     height: 200px;
     background:url(../images/main_hero.jpg);
 }
 
+.nav-bar {
+    justify-content: center;
+}
+
+.h1-title {
+    text-align: center;
+}
+
+.h2-title {
+    text-align: center;
+}
+
+.h3-title {
+    text-align: center;
+}
+
 .promo { 
     grid-area: promo; 
-    height: 50px;
-    background-color: blue;
+}
+
+.promo .image-wrap .img{
+    width: 100%;
 }
 
 .footer { 
     grid-area: footer; 
     height: 50px;
     background-color: yellow;
+}
+
+
+
+.right-ft {
+    width: 50%;
 }
 
 
