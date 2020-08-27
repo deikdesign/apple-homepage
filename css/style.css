@@ -5,8 +5,8 @@
 
 .main { 
     grid-area: main; 
-    height: 50px;
-    background-color: green;
+    height: 200px;
+    background:url(../images/main_hero.jpg);
 }
 
 .promo { 
