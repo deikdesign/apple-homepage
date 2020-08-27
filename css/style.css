@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:'main' 'promo' 'footer';
+}
+
+.main { 
+    grid-area: main; 
+    height: 50px;
+    background-color: green;
+}
+
+.promo { 
+    grid-area: promo; 
+    height: 50px;
+    background-color: blue;
+}
+
+.footer { 
+    grid-area: footer; 
+    height: 50px;
+    background-color: yellow;
+}
+
+
