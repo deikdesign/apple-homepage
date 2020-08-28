@@ -17,10 +17,22 @@
     grid-area: main; 
     height: 200px;
     background:url(../images/main_hero.jpg);
+    align-items: center;
 }
 
 .nav-bar {
     justify-content: center;
+    background-image: linear-gradient(rgb(116, 116, 116) 30%,
+     rgb(111, 111, 111) 49%,
+     rgb(90, 90, 90) 50%,
+     rgb(116, 116, 116) 90%);
+     border-radius: 4px;
+     color:white;
+     margin-top: 40px;
+}
+    
+.nav-bar > span {
+    padding: 10px 30px;
 }
 
 .h1-title {
