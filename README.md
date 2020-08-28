@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](....)
+[Live Demo Link](https://deikdesign.github.io/apple-homepage/)
 
 ## Getting Started
 
