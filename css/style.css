@@ -12,7 +12,6 @@
     display: flex;
     flex-direction: column;
 }
-
 /* background, navbar and titles starts here */
 /* *********************************************************************************** */
 
@@ -25,8 +24,70 @@
 }
 
 .main .nav-bar {
-    /* margin: 90px 0px 30px 0px; */
+    margin: 90px 0px 30px 0px;
     justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(116, 116, 116) 30%,
+     rgb(111, 111, 111) 49%,
+     rgb(90, 90, 90) 50%,
+     rgb(116, 116, 116) 90%);
+     border-radius: 4px;
+     color:white;
+}
+    
+.nav-bar > span {
+    cursor: pointer;
+    padding: 9px 27px;
+    border-right: 1px solid #484848;
+}
+
+.main .nav-bar span:hover{
+    cursor: pointer;
+    background: rgb(70, 70, 70);
+}
+
+.main .nav-bar span a{
+    color: white;
+    font-family: lucida sans,lucida sans regular,lucida grande,lucida sans unicode,Geneva,Verdana,sans-serif;
+    text-decoration: none;
+}
+
+.main .nav-bar span.mag-span{
+    position: relative;
+}
+
+.main .nav-bar span div.mag-div{
+    position: absolute;
+}
+
+.main .nav-bar span input{
+    width: 80px;
+    border-radius: 25px;
+    max-height: 13px;
+    padding-left: 18px;
+    background: #747474;
+    border: 1px #616161 solid;
+}
+
+.main .nav-bar span input:hover{
+    width: 80px;
+    border-radius: 25px;
+    max-height: 13px;
+    padding-left: 18px;
+    background: white;
+    border: 1px #616161 solid;
+}
+
+.main .nav-bar span img{
+    max-height: 18px;
+}
+
+.main .nav-bar span a:hover{
+    text-decoration: none;
+}
+
+.nav-item .fab {
+    font-size: 17px;
 }
 
 .main .titles img.h1{
@@ -36,7 +97,6 @@
 .main .titles img.h2{
     margin: 0px 0px 20px 0px
 }
-
 
 .main .titles div{
     font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
