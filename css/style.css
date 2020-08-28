@@ -35,23 +35,40 @@
     text-align: center;
 }
 
+/* promo section starts here */
+/* ******************************************************************************************** */
+
 .promo { 
     grid-area: promo; 
 }
 
-.promo .image-wrap .img{
+.promo .image-wrap img{
     width: 100%;
 }
 
+/* footer starts here */
+/* ********************************************************************************************* */
+
 .footer { 
     grid-area: footer; 
-    height: 50px;
-    background-color: yellow;
+    margin: 10px 100px;
 }
 
+.footer div{
+    font-size: 11px;
+    line-height: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.footer div p a{
+    text-decoration: none;
+}
 
-.right-ft {
+.footer div p a:hover{
+    text-decoration: underline;
+}
+
+.footer div .footer-left{
     width: 50%;
 }
 
