@@ -68,7 +68,11 @@
     text-decoration: underline;
 }
 
-.footer div .footer-left{
+.footer .upper-ft{
+    justify-content: space-between;
+}
+
+.footer .lower-ft{
     width: 50%;
 }
 
