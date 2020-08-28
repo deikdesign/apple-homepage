@@ -24,9 +24,8 @@
     align-items: center;
 }
 
-.nav-bar {
+.main .nav-bar {
     justify-content: center;
-    margin: 90px 0px 30px 0px;
 }
 
 .main .titles img.h1{
