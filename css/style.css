@@ -18,7 +18,7 @@
 .main { 
     grid-area: main; 
     height: 538px;
-    background:url(../images/main_hero.jpg)  50% 100% no-repeat;
+    background:url(../images/main_hero.jpg) 50% 100% no-repeat;
     background-size: cover;
     align-items: center;
 }
@@ -42,7 +42,6 @@
 }
 
 .main .nav-bar span:hover{
-    cursor: pointer;
     background: rgb(70, 70, 70);
 }
 
