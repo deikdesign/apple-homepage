@@ -33,15 +33,39 @@
      border-radius: 4px;
      color:white;
      margin-top: 40px;
+     height:40px;
+     
 }
     
 .nav-bar > span {
     padding: 10px 30px;
+    align-items: center;
+    display: flex;
 }
 
 .nav-item .fab {
     font-size: 30px;
 }
+
+.navitem-border {
+    justify-content: center;
+    border-right: 1px double;
+    border-right-width: 1px;
+    border-right-style: double;
+    border-right-color: maroon;
+    width: 12%;
+}
+*/
+/*
+.center-align {
+    display: flex;
+    align-items: center;
+    height:100%;
+}
+/*
+align-items: center;
+/* height: 100%; */
+/*display: flex;  */
 
 .h1-title {
     text-align: center;
