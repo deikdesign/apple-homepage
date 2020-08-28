@@ -52,7 +52,7 @@ Run `npx html-validator-cli --quiet --file index.html` to run the validator over
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/BigWizzo/html-form/issues).
+Feel free to check the [issues page](https://github.com/deikdesign/apple-homepage/issues).
 
 ## Show your support
 
