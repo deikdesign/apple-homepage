@@ -13,6 +13,10 @@
     flex-direction: column;
 }
 
+.width-70 {
+    width: 70%;
+}
+
 .main { 
     grid-area: main; 
     height: 200px;
@@ -33,6 +37,10 @@
     
 .nav-bar > span {
     padding: 10px 30px;
+}
+
+.nav-item .fab {
+    font-size: 30px;
 }
 
 .h1-title {
