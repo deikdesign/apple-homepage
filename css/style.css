@@ -13,25 +13,36 @@
     flex-direction: column;
 }
 
+/* background, navbar and titles starts here */
+/* *********************************************************************************** */
+
 .main { 
     grid-area: main; 
-    height: 200px;
-    background:url(../images/main_hero.jpg);
+    height: 538px;
+    background:url(../images/main_hero.jpg)  50% 100% no-repeat;
+    background-size: cover;
+    align-items: center;
 }
 
 .nav-bar {
     justify-content: center;
+    margin: 90px 0px 30px 0px;
 }
 
-.h1-title {
-    text-align: center;
+.main .titles img.h1{
+    margin: 20px 0px 0px 0px;
 }
 
-.h2-title {
-    text-align: center;
+.main .titles img.h2{
+    margin: 0px 0px 20px 0px
 }
 
-.h3-title {
+
+.main .titles div{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    color: white;
     text-align: center;
 }
 
