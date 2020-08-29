@@ -1,3 +1,9 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .grid-container {
   display: grid;
   grid-template-areas: 'main' 'promo' 'footer';
@@ -14,8 +20,6 @@
 }
 
 /* background, navbar and titles starts here */
-
-/* *********************************************************************************** */
 
 .main {
   grid-area: main;
@@ -126,19 +130,21 @@
 
 /* promo section starts here */
 
-/* ******************************************************************************************** */
-
 .promo {
   grid-area: promo;
 }
 
+.promo .image-wrap{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .promo .image-wrap img.promo-img {
+    display: block;
     width: 100%;
   }
 
 /* footer starts here */
-
-/* ********************************************************************************************* */
 
 .footer {
   grid-area: footer;
@@ -151,4 +157,5 @@
 
 .footer .lower-ft {
   width: 50%;
+  margin-top: 10px;
 }
