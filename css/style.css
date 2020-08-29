@@ -1,7 +1,7 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .grid-container {
@@ -134,15 +134,15 @@
   grid-area: promo;
 }
 
-.promo .image-wrap{
+.promo .image-wrap {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
 .promo .image-wrap img.promo-img {
-    display: block;
-    width: 100%;
-  }
+  display: block;
+  width: 100%;
+}
 
 /* footer starts here */
 
